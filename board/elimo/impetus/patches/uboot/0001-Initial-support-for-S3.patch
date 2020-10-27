@@ -78,7 +78,7 @@ index 0000000000..35ec50a601
 +
 +/ {
 +	model = "Elimo Impetus+Initium";
-+	compatible = "elimo,impetus-initium", "elimo,impetus", "allwinner,sun8i-s3";
++	compatible = "elimo,impetus-initium", "elimo,impetus", "sochip,s3", "allwinner,sun8i-s3";
 +
 +	aliases {
 +		serial0 = &uart0;
