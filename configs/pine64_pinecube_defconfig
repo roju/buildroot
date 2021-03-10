@@ -18,7 +18,7 @@ BR2_PACKAGE_OVERRIDE_FILE="$(TOPDIR)/../buildroot_override"
 
 BR2_LINUX_KERNEL=y
 BR2_LINUX_KERNEL_CUSTOM_TARBALL=y
-BR2_LINUX_KERNEL_CUSTOM_TARBALL_LOCATION="https://github.com/roju/linux-cedarx/archive/v5.4.101.tar.gz"
+BR2_LINUX_KERNEL_CUSTOM_TARBALL_LOCATION="https://github.com/roju/linux-pinecube/archive/camera-support.tar.gz"
 BR2_LINUX_KERNEL_VERSION="custom"
 BR2_LINUX_KERNEL_ZIMAGE=y
 BR2_LINUX_KERNEL_GZIP=y
