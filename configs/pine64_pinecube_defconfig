@@ -13,6 +13,7 @@ BR2_ENABLE_LOCALE_WHITELIST="C en_US en_GB"
 
 BR2_ROOTFS_POST_IMAGE_SCRIPT="support/scripts/genimage.sh"
 BR2_ROOTFS_POST_SCRIPT_ARGS="-c board/pine64/pinecube/genimage.cfg"
+BR2_ROOTFS_OVERLAY="~/overlay"
 
 BR2_PACKAGE_OVERRIDE_FILE="$(TOPDIR)/../buildroot_override"
 
