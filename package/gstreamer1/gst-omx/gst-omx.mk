@@ -21,6 +21,10 @@ ifeq ($(BR2_PACKAGE_RPI_USERLAND),y)
 GST_OMX_VARIANT = rpi
 GST_OMX_CONF_OPTS += -Dheader_path=$(STAGING_DIR)/usr/include/IL
 GST_OMX_VARIANT = generic
+else ifeq ($(BR2_PACKAGE_BELLAGIO),y)
+GST_OMX_VARIANT = bellagio
+else
+GST_OMX_VARIANT = generic
 endif
 
 GST_OMX_CONF_OPTS += -Dtarget=$(GST_OMX_VARIANT)
